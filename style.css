@@ -126,10 +126,12 @@
         display: block; 
         width: 100%; 
         margin-top: 5vh; 
+        margin-bottom: 9vh;
 
     } 
     .q img {
-        width: 100%;
+        width: 100%; 
+
     };
  } 
  .abo p { 
@@ -143,4 +145,31 @@
  } 
  .q img { 
     width: 90%;
+ } 
+ .chor {
+    width: 90%; 
+    height: 30vh; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 5%; 
+    margin-top: 10vh;
+
+ } 
+ .chor .dr {
+    width: 24%; 
+    height: 100%; 
+    border: 1px solid gray;  
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;  
+    align-items: center;
+
+ }  
+ .dr img {
+    width: 15vh; 
+    height: 15vh;
+ } 
+ .dr p { 
+    text-align: center; 
+    color: gray;
  }
