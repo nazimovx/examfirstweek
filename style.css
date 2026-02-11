@@ -109,7 +109,7 @@
     } 
     .us img { 
  width: 100%; 
- 
+
     }
     .is h1 { 
         font-size: 5vh;
@@ -121,5 +121,26 @@
     .is button {
         width: 70%; 
         margin-left: 5vh;
-    }
+    }  
+    .q {
+        display: block; 
+        width: 100%; 
+        margin-top: 5vh; 
+
+    } 
+    .q img {
+        width: 100%;
+    };
+ } 
+ .abo p { 
+    text-align: center; 
+    font-size: 4vh; 
+    margin-top: 10vh;
+ } 
+ .cl {
+    background-color: white; 
+    height: 90vh;
+ } 
+ .q img { 
+    width: 90%;
  }
