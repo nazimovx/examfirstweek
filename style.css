@@ -176,7 +176,7 @@
    text-align: center;
    font-size: 3.5vh; 
    color: gray;  
-   margin-bottom: 8vh;
+   margin-bottom: 5vh;
 
 } 
 .dil h1 {
@@ -314,7 +314,47 @@
    color: gray;
    margin-top: 1vh; 
    margin-left: 2vh;
+} 
+
+
+ 
+.mails {
+   width: 90%; 
+   height: 35vh; 
+   display: flex; 
+  justify-content: space-between;
+   margin-left: 5%;
+   margin-top: 10vh; 
+  
+} 
+.mails .lki {
+   width: 30%; 
+   height: 100%; 
+
+   border: 1px solid gray;
+} 
+.lki .lk1 {
+   width: 100%; 
+   height: 55%; 
+ 
+   display: flex; 
+} 
+.rr p {
+   font-size: 4vh; 
+} 
+.rr .pr {
+   font-size: 3vh; 
+   color: orangered; 
+   margin-top: 4vh; 
+   margin-bottom: 3vh;
+} 
+.xz p {
+   font-size: 3vh; 
+   color: gray; 
+   margin-top: 2vh; 
+   margin-left: 5vh;
 }
+
 
 
 
@@ -469,14 +509,15 @@
   
   .yu { 
    width: 100%;  
-   height: 48vh; 
+   height: 48vh;  
+   
   } 
   .yu .bollo {
    width: 100%;  
    margin-bottom: 0vh;
 
   }  
-
+ 
   .yu .bollo p {
    font-size: 2vh;
   } 
@@ -488,7 +529,18 @@
    font-size: 2vh;
   }
   .yu .poyon { 
-   width: 100%;
+   width: 100%; 
+  } 
+  .mails {
+   width: 90%; 
+   flex-direction: column; 
+   height: 45vh; 
   }
+ .mails .lki { 
+   width: 100%; 
+   margin-bottom: 5vh;  
+   
 
+   height: 100%;
+ }
  }   
