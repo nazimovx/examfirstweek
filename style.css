@@ -130,6 +130,97 @@
 
 
 
+
+
+
+.is .wqw {
+   font-size: 7vh;
+}  
+.duyum .lll {
+
+   height: 100%;  
+   display: flex; 
+   flex-direction: column;
+}
+.sff {
+   width: 100%; 
+   height: 50%; 
+ 
+   display: flex; 
+   justify-content: space-evenly;   
+   align-items: center;
+
+}  
+
+
+.jjk {
+   width: 43%; 
+   height: 80%; 
+   background-color: white; 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+   justify-content: center; 
+   border: 0.1px solid gray;
+} 
+.jjk h1 {
+   font-size: 7vh;
+} 
+.jjk p {
+   color: gray;
+}  
+.dil { 
+   margin-top: 20vh; 
+} 
+.dil p {
+   text-align: center;
+   font-size: 3.5vh; 
+   color: gray;  
+   margin-bottom: 8vh;
+
+} 
+.dil h1 {
+   font-size: 9vh; 
+   text-align: center; 
+
+}  
+.dil span {
+   color: orangered;
+} 
+.workers  {
+   width: 90%; 
+   margin-left: 5%; 
+   height: 55vh; 
+   display: flex; 
+   justify-content: space-between;  
+   margin-top: 15vh;
+} 
+.darun {
+   width: 23%; 
+   height: 100%; 
+   border: 1px solid gray;
+   display: flex; 
+   flex-direction: column; 
+   align-items: center;  
+   
+
+}  
+.darun img {
+   width: 100%; 
+   height: 74%;  
+
+} 
+.darun  p {
+   font-size: 3vh; 
+   margin-top: 2vh; 
+   
+   margin-bottom: 3vh; 
+} 
+.darun span { 
+   font-size: 2.5vh ;
+   color: gray; 
+}
+
  @media (max-width:510px) { 
     .prs { 
         display: none;  
@@ -215,43 +306,33 @@
    width: 100%;  
    height: 50vh;  
    margin-bottom: 5vh;
-  }
- }  
-
-
-.is .wqw {
-   font-size: 7vh;
-}  
-.duyum .lll {
-
-   height: 100%;  
-   display: flex; 
-   flex-direction: column;
-}
-.sff {
-   width: 100%; 
-   height: 50%; 
+  } 
  
-   display: flex; 
-   justify-content: space-evenly;   
-   align-items: center;
+  .workers {
+   overflow: scroll;
+   width: 90%; 
+   margin-top: 10vh; 
+   justify-content: center;
+  }  
+  .workers .darun {
+   width: 100%; 
+   display: none; 
 
-}  
+  } 
+  .workers .darunn {
+   display: block; 
+   width: 100%;
+  } 
+  .workers .darunn p {
+   text-align: center;
+  } 
+   .workers .darun span { 
+   margin-left: 15vh;
+  }
+  .dil {
+   margin-top: 100vh;
+  }
 
 
-.jjk {
-   width: 43%; 
-   height: 80%; 
-   background-color: white; 
-   display: flex; 
-   flex-direction: column; 
-   align-items: center; 
-   justify-content: center; 
-   border: 0.1px solid gray;
-} 
-.jjk h1 {
-   font-size: 7vh;
-} 
-.jjk p {
-   color: gray;
-} 
+
+ }  
