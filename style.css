@@ -219,7 +219,37 @@
 .darun span { 
    font-size: 2.5vh ;
    color: gray; 
-}
+} 
+
+
+
+.darozz {
+   width: 100%; 
+   height: 90vh; 
+   background-color: #FFF7F4; 
+   margin-top: 15vh;
+} 
+.orab { 
+   width: 90%; 
+   margin-left: 5%;  
+   height: 40vh; 
+   margin-top: 5vh; 
+   display: flex; 
+   justify-content: space-around; 
+ } 
+ .orabb {
+   width: 35%; 
+   padding-left: 5vh;
+   padding-top: 6vh; 
+   height: 100%; 
+   background-color: orangered; 
+   color: white;
+ } 
+ .orabb p { 
+   margin-top: 3vh; 
+   margin-bottom: 5vh;
+
+ } 
 
  @media (max-width:510px) { 
     .prs { 
@@ -331,8 +361,33 @@
   }
   .dil {
    margin-top: 100vh;
+  } 
+  .nest {
+   display: none; 
+  }   
+  .dill { 
+   margin-top: 0;
   }
+  .dill p { 
+   font-size: 3vh;
+  }
+  .dill h1 {
+   font-size: 4vh;
+  }  
+  .dil h1 {
+   font-size: 5vh; 
 
+  } 
+  .dil p { 
+   font-size: 3vh;
+  }
+ 
+  .orab {
+   width: 90%; 
+  } 
+  .orabb {
+   width: 100%;
+  }
 
 
  }  
