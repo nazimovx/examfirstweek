@@ -249,7 +249,75 @@
    margin-top: 3vh; 
    margin-bottom: 5vh;
 
+ }  
+
+
+ .another {
+   width: 90%; 
+   height: 50vh; 
+   margin-left: 5%; 
+   
+   margin-top: 9vh; 
+   display: flex; 
+   justify-content: space-between 
+} 
+ .yu { 
+   border: 1px solid gray;
+   width: 48%; 
+   height: 100%; 
+   
+
  } 
+ .bollo {
+   width: 100%; 
+   height: 60%; 
+   
+   display: flex; 
+   justify-content: space-between;
+ }  
+ .bollo img {
+   width: 22vh; 
+   height: 22vh; 
+   margin-top: 7vh; 
+   margin-right: 3vh;
+ } 
+ .bollo p { 
+   margin-left: 4vh; 
+   margin-bottom: 4vh; 
+   margin-top: 3vh; 
+   color: orangered;
+ } 
+ .bollo .vc {
+   font-size: 4vh; 
+   color: black;
+ }
+ .poyon {
+   width: 100%; 
+   height: 40%; 
+   display: flex;
+ }  
+ .poyon img {
+   width: 15vh; 
+   height: 15vh; 
+   margin-top: 3vh; 
+   margin-left: 3vh;
+ } 
+
+ .polj p  { 
+   font-size: 3vh; 
+   margin-left: 4vh;
+   margin-top: 9vh;
+
+  
+} 
+.polj .hy {
+   color: gray;
+   margin-top: 1vh; 
+   margin-left: 2vh;
+}
+
+
+
 
  @media (max-width:510px) { 
     .prs { 
@@ -263,7 +331,8 @@
     .logo img { 
         width: 10vh; 
         
-    } 
+    }  
+    
     .n {
         flex-direction: column; 
     } 
@@ -383,11 +452,43 @@
   }
  
   .orab {
-   width: 90%; 
+   width: 90%;   
+   margin-bottom: 0;
+   
   } 
   .orabb {
+   width: 100%; 
+   margin-bottom: 0;
+  } 
+  .dils {
+   margin-top: 0;
+  } 
+  .dils h1 {
+   font-size: 5vh;
+  }
+  
+  .yu { 
+   width: 100%;  
+   height: 48vh; 
+  } 
+  .yu .bollo {
+   width: 100%;  
+   margin-bottom: 0vh;
+
+  }  
+
+  .yu .bollo p {
+   font-size: 2vh;
+  } 
+  .yu .bollo img {
+   width: 15vh; 
+   height: 15vh;
+  } 
+  .yu .poyon .polj p {
+   font-size: 2vh;
+  }
+  .yu .poyon { 
    width: 100%;
   }
 
-
- }  
+ }   
